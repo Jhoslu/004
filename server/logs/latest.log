@@ -1,0 +1,135 @@
+[15:53:48] [main/INFO]: Loading Minecraft 1.18.2 with Fabric Loader 0.16.0
+[15:53:48] [ForkJoinPool-1-worker-4/WARN]: Mod deepslateinstamine uses the version 2.5_release which isn't compatible with Loader's extended semantic version format (Could not parse version number component '5_release'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[15:53:48] [main/INFO]: Loading 44 mods:
+	- architectury 4.11.93
+	- carpet 1.4.68
+	- carpet-extra 1.4.72
+	- deepslateinstamine 2.5_release
+	- fabric-api 0.59.0+1.18.2
+	   |-- fabric-api-base 0.4.4+d7c144a860
+	   |-- fabric-api-lookup-api-v1 1.6.2+2373a54560
+	   |-- fabric-biome-api-v1 8.0.6+651bcc5960
+	   |-- fabric-blockrenderlayer-v1 1.1.12+3ac43d9560
+	   |-- fabric-command-api-v1 1.1.9+d7c144a860
+	   |-- fabric-commands-v0 0.2.8+b4f4f6cd60
+	   |-- fabric-containers-v0 0.1.23+d7c144a860
+	   |-- fabric-content-registries-v0 3.1.1+c85f2e3860
+	   |-- fabric-convention-tags-v1 1.0.1+474e4f7960
+	   |-- fabric-crash-report-info-v1 0.2.1+ee261a3e60
+	   |-- fabric-data-generation-api-v1 3.0.1+9fcb91d260
+	   |-- fabric-dimensions-v1 2.1.20+489d6f8260
+	   |-- fabric-entity-events-v1 1.4.8+d7c144a860
+	   |-- fabric-events-interaction-v0 0.4.19+d7c144a860
+	   |-- fabric-events-lifecycle-v0 0.2.19+d7c144a860
+	   |-- fabric-game-rule-api-v1 1.0.13+d7c144a860
+	   |-- fabric-item-api-v1 1.5.2+17cbbd4360
+	   |-- fabric-item-groups-v0 0.3.14+91896a4960
+	   |-- fabric-key-binding-api-v1 1.0.12+54e5b2ec60
+	   |-- fabric-keybindings-v0 0.2.10+b4f4f6cd60
+	   |-- fabric-lifecycle-events-v1 2.1.0+cc71601c60
+	   |-- fabric-loot-api-v2 1.1.0+1997ad1260
+	   |-- fabric-loot-tables-v1 1.1.2+e747827960
+	   |-- fabric-mining-level-api-v1 2.1.4+cc71601c60
+	   |-- fabric-models-v0 0.3.6+d7c144a860
+	   |-- fabric-networking-api-v1 1.0.23+2d30af4b60
+	   |-- fabric-networking-v0 0.3.10+b4f4f6cd60
+	   |-- fabric-object-builder-api-v1 2.1.3+032c981d60
+	   |-- fabric-particles-v1 0.2.12+526dc1ac60
+	   |-- fabric-registry-sync-v0 0.9.10+0d9ab37260
+	   |-- fabric-renderer-api-v1 0.4.13+d882b91560
+	   |-- fabric-renderer-indigo 0.5.3+41a02c8a60
+	   |-- fabric-renderer-registries-v1 3.2.11+b4f4f6cd60
+	   |-- fabric-rendering-data-attachment-v1 0.3.7+d7c144a860
+	   |-- fabric-rendering-fluids-v1 2.0.2+54e5b2ec60
+	   |-- fabric-rendering-v0 1.1.13+b4f4f6cd60
+	   |-- fabric-rendering-v1 1.10.7+54e5b2ec60
+	   |-- fabric-resource-conditions-api-v1 2.0.3+91b7aa6660
+	   |-- fabric-resource-loader-v0 0.5.2+446e059560
+	   |-- fabric-screen-api-v1 1.0.10+d882b91560
+	   |-- fabric-screen-handler-api-v1 1.2.2+1f6558e860
+	   |-- fabric-textures-v0 1.0.12+3ac43d9560
+	   |-- fabric-transfer-api-v1 1.6.3+f4563ac860
+	   \-- fabric-transitive-access-wideners-v1 1.1.0+e747827960
+	- fabricloader 0.16.0
+	   \-- mixinextras 0.4.0
+	- java 21
+	- johan-carpet 1.18.2-2022.7.5
+	- minecraft 1.18.2
+	- starlight 1.0.2+fabric.89b8d9f
+[15:53:49] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/004/server/libraries/net/fabricmc/sponge-mixin/0.15.0+mixin.0.8.7/sponge-mixin-0.15.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[15:53:49] [main/INFO]: Compatibility level set to JAVA_16
+[15:53:49] [main/INFO]: Compatibility level set to JAVA_17
+[15:53:49] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.0).
+[15:53:56] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:53:58] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[15:53:59] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:53:59] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:53:59] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:53:59] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:53:59] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:54:00] [Worker-Main-4/INFO]: Loaded 7 recipes
+[15:54:01] [Worker-Main-4/INFO]: Loaded 1141 advancements
+[15:54:03] [main/INFO]: Applied 0 biome modifications to 0 of 61 new biomes in 9.625 ms
+[15:54:03] [main/WARN]: JohanExtension extension registered too late!
+[15:54:03] [main/WARN]: This won't be supported in later Carpet versions and may crash the game!
+[15:54:03] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[15:54:03] [Server thread/INFO]: Loading properties
+[15:54:03] [Server thread/INFO]: Default game type: SURVIVAL
+[15:54:03] [Server thread/INFO]: Generating keypair
+[15:54:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:54:03] [Server thread/INFO]: Using epoll channel type
+[15:54:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:54:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:54:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:54:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:54:04] [Server thread/INFO]: Preparing level "world"
+[15:54:04] [Server thread/INFO]: [CM]: loaded setting carefulBreak as always from carpet.conf
+[15:54:04] [Server thread/INFO]: [CM]: loaded setting stackableShulkerBoxes as true from carpet.conf
+[15:54:04] [Server thread/INFO]: [CM]: loaded setting defaultLoggers as mobcaps,tps from carpet.conf
+[15:54:04] [Server thread/INFO]: [CM]: loaded setting missingTools as true from carpet.conf
+[15:54:04] [Server thread/INFO]: [CM]: loaded setting xpNoCooldown as true from carpet.conf
+[15:54:04] [Server thread/INFO]: [CM]: loaded setting ctrlQCraftingFix as true from carpet.conf
+[15:54:04] [Server thread/INFO]: [CM]: loaded setting viewDistance as 9 from carpet.conf
+[15:54:04] [Server thread/INFO]: [CM]: loaded setting accurateBlockPlacement as true from carpet.conf
+[15:54:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:54:05] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[15:54:05] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[15:54:05] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[15:54:05] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[15:54:06] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[15:54:06] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[15:54:07] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[15:54:07] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[15:54:08] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[15:54:08] [Worker-Main-5/INFO]: Preparing spawn area: 4%
+[15:54:09] [Worker-Main-6/INFO]: Preparing spawn area: 10%
+[15:54:09] [Worker-Main-5/INFO]: Preparing spawn area: 23%
+[15:54:10] [Worker-Main-5/INFO]: Preparing spawn area: 35%
+[15:54:10] [Worker-Main-6/INFO]: Preparing spawn area: 44%
+[15:54:11] [Worker-Main-6/INFO]: Preparing spawn area: 69%
+[15:54:12] [Server thread/INFO]: Time elapsed: 8079 ms
+[15:54:12] [Server thread/INFO]: cs app loaded with /cs command
+[15:54:12] [Server thread/INFO]: App cs loaded in 54 ms
+[15:54:12] [Server thread/INFO]: Done (8.562s)! For help, type "help"
+[15:54:12] [Server thread/INFO]: SERVER_STARTED!
+[15:54:12] [Server thread/INFO]: Config: net.nicguzzo.deepslateinstamine.Config@57501a1
+[15:54:12] [Server thread/INFO]: Config updated!
+[15:54:12] [Server thread/INFO]: Config loaded!
+[15:54:12] [Server thread/INFO]: trying: minecraft:deepslate
+[15:54:12] [Server thread/INFO]: Instamine block: Block{minecraft:deepslate}
+[15:54:12] [Server thread/INFO]: trying: minecraft:cobblestone
+[15:54:12] [Server thread/INFO]: Instamine block: Block{minecraft:cobblestone}
+[15:54:12] [Server thread/INFO]: trying: minecraft:end_stone
+[15:54:12] [Server thread/INFO]: Instamine block: Block{minecraft:end_stone}
+[15:54:12] [Server thread/INFO]: trying: minecraft:netherite_pickaxe
+[15:54:12] [Server thread/INFO]: Instamine pickaxe: netherite_pickaxe
+[15:54:12] [Server thread/INFO]: trying: minecraft:netherite_axe
+[15:54:12] [Server thread/INFO]: Instamine axe: netherite_axe
+[15:57:49] [Server thread/INFO]: _Jhos[/100.117.132.45:52912] logged in with entity id 1015 at (-63.5, 157.5625, 120.5)
+[15:57:49] [Server thread/INFO]: _Jhos joined the game
+[15:57:50] [Server thread/INFO]: [STDOUT]: Latest version: 2022.7.5
+[15:57:52] [Netty Epoll Server IO #3/INFO]: Player _Jhos joined with a matching carpet client
+[15:58:24] [Server thread/INFO]: Alex[local] logged in with entity id 1504 at (-818.48, 185.0, -1503.51)
+[15:58:24] [Server thread/INFO]: Alex joined the game
+[15:59:31] [Server thread/INFO]: _Jhos lost connection: Disconnected
+[15:59:31] [Server thread/INFO]: _Jhos left the game

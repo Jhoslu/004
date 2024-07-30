@@ -1,0 +1,8 @@
+[MCDR] [2024-07-30 15:53:47.774] [MainThread/INFO] [mcdr_server.py:615(__on_mcdr_start)]: MCDReforged 2.13.1 is starting
+[MCDR] [2024-07-30 15:53:47.778] [MainThread/INFO] [python_plugin.py:36(load)]: MCDReforged is running on Python 3.10.13 environment
+[MCDR] [2024-07-30 15:53:47.779] [TaskExecutor/INFO] [plugin_manager.py:693(refresh_all_plugins_action)]: Refreshing all plugins
+[MCDR] [2024-07-30 15:53:47.798] [TaskExecutor/INFO] [plugin_manager.py:217(__load_plugin)]: Plugin quick_backup_multi@1.7.0 loaded
+[MCDR] [2024-07-30 15:53:47.844] [TaskExecutor/INFO] [plugin_server_interface.py:277(log)] [quick_backup_multi]: Config file loaded
+[MCDR] [2024-07-30 15:53:47.845] [TaskExecutor/INFO] [mcdr_server.py:294(load_plugins)]: Loaded: §71§r plugins; Active plugin count: §73§r
+[MCDR] [2024-07-30 15:53:47.848] [MainThread/INFO] [mcdr_server.py:409(start_server)]: Starting the server with command 'java -Xms2G -Xmx10G -jar  fabric-server-launch.jar nogui'
+[MCDR] [2024-07-30 15:53:47.854] [MainThread/INFO] [mcdr_server.py:491(__on_server_start)]: Server is running at PID 26240
